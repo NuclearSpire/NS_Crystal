@@ -1,0 +1,25 @@
+using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
+using MegaCrit.Sts2.Core.Models.Powers;
+
+namespace NS_Crystal.NS_CrystalCode.Cards;
+
+public class Ricochet() : CrystalCard(1, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
+{
+  protected override IEnumerable<IHoverTip> ExtraHoverTips => [
+    HoverTipFactory.FromPower<PlatingPower>(),
+    HoverTipFactory.Static(StaticHoverTip.Block)
+  ];
+
+  protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
+  {
+    await PowerCmd.Apply<ReflectPower>(choiceContext, Owner.Creature, 1, Owner.Creature, this);
+  }
+
+  protected override void OnUpgrade()
+  {
+    EnergyCost.UpgradeBy(-1);
+  }
+}

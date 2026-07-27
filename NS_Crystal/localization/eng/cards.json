@@ -1,0 +1,22 @@
+{
+  "NS_CRYSTAL-CRYSTALLINE_SHATTER.description": "Deal {CalculatedDamage:diff()} damage.\nConsumes all [gold]Plating[/gold], dealing {ExtraDamage:diff()} additional damage for each stack consumed.",
+  "NS_CRYSTAL-CRYSTALLINE_SHATTER.title": "Crystalline Shatter",
+
+  "NS_CRYSTAL-CRYSTALIZE.description": "Gain {PlatingPower:diff()} [gold]Plating[/gold].",
+  "NS_CRYSTAL-CRYSTALIZE.title": "Crystalize",
+
+  "NS_CRYSTAL-REBUILD.description": "If you have no [gold]Plating[/gold], gain {PlatingPower:diff()} [gold]Plating[/gold]. Otherwise, draw {Cards:diff()} cards.",
+  "NS_CRYSTAL-REBUILD.title": "Rebuild",
+
+  "NS_CRYSTAL-LAST_STAND.description": "Can only be played if you have no [gold]Plating[/gold]. Deal {Damage:diff()} damage.",
+  "NS_CRYSTAL-LAST_STAND.title": "Last Stand",
+
+  "NS_CRYSTAL-BRACE.description": "End your turn.\nGain {PlatingPower:diff()} [gold]Plating[/gold].",
+  "NS_CRYSTAL-BRACE.title": "Brace",
+
+  "NS_CRYSTAL-REINFORCE.description": "Double your [gold]Plating[/gold].",
+  "NS_CRYSTAL-REINFORCE.title": "Reinforce",
+
+  "NS_CRYSTAL-RICOCHET.description": "Blocked attack damage is reflected to your attacker this turn.",
+  "NS_CRYSTAL-RICOCHET.title": "Ricochet"
+}
