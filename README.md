@@ -1,4 +1,4 @@
-# Nuclear Spire Crysal Character Mod
+# Crysal Character Mod
 
 This is the source code for the Crystal Character Mod, apart of the Nuclear Spire collection for Slay the Spire 2.
 
